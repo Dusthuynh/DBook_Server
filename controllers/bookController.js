@@ -1,8 +1,8 @@
 // const { query } = require('express');
-const Book = require('./../models/bookModel');
-const APIFeatures = require('./../utils/apiFeature');
-const catchAsync = require('./../utils/catchAsync');
-const AppError = require('./../utils/appError');
+const Book = require('../models/bookModel');
+const APIFeatures = require('../utils/apiFeature');
+const catchAsync = require('../utils/catchAsync');
+const AppError = require('../utils/appError');
 
 exports.getAllBooks = catchAsync(async (req, res, next) => {
   const features = new APIFeatures(Book.find(), req.query)

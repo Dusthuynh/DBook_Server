@@ -1,9 +1,9 @@
 const { query } = require('express');
-const Post = require('./../models/postModel');
+const Post = require('../models/postModel');
 // const bookController = require('./../controllers/bookController');
-const APIFeatures = require('./../utils/apiFeature');
-const catchAsync = require('./../utils/catchAsync');
-const AppError = require('./../utils/appError');
+const APIFeatures = require('../utils/apiFeature');
+const catchAsync = require('../utils/catchAsync');
+const AppError = require('../utils/appError');
 const slugify = require('slugify');
 
 const getUpdate = (action, beforeVote) => {
