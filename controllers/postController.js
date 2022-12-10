@@ -1,5 +1,5 @@
 const { query } = require('express');
-const Post = require('../models/postModel');
+const Post = require('../Models/postModel');
 // const bookController = require('./../controllers/bookController');
 const APIFeatures = require('../utils/apiFeature');
 const catchAsync = require('../utils/catchAsync');
