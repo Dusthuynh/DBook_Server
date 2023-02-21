@@ -1,9 +1,3 @@
-#
-
-https://youtu.be/7kgm_k00aqU?t=25409
-
----
-
 ## Đặc tả chức năng
 
 ### User
@@ -24,4 +18,4 @@ https://youtu.be/7kgm_k00aqU?t=25409
 
 - tạo book ✅
 - search post && user ✅
-- controller user (udemy) ✅
+- controller user ✅
